@@ -37,4 +37,7 @@ jobs:
       
       # Testing commands
       - name: testing commands
-        run: ls
+        run: |
+          echo my test!
+          ls
+          pwd
