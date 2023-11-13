@@ -39,5 +39,5 @@ jobs:
       - name: testing commands
         run: |
           echo my test!
-          ls
+          ls -la
           pwd
